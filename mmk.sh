@@ -1,13 +1,8 @@
-##Sample script for testing
+ssh 192.168.56.2 bash -c "'
+mkdir -p /tmp/test1
+mkdir -p /tmp/test2
+mkdir -p /tmp/test3
+mkdir -p /tmp/test4
+mkdir -p /tmp/test5
+'"
 
-host=`hostname`
-greet="welcome to $host !"
-msg="Lets Get Started"
-clear
-echo "********************"
-echo "$greet"
-echo "$msg"
-echo "********************"
-echo ""
-echo ""
-echo "Issue Fixed"
